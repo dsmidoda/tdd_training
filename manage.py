@@ -5,7 +5,7 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """Run administrative tasks. Test pull request...."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'superlists.settings')
     try:
         from django.core.management import execute_from_command_line
